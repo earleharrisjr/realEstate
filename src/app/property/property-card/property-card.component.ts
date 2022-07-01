@@ -14,7 +14,8 @@ export class PropertyCardComponent {
     "Id":1,
     "Name":"Pine Street",
     "Type": "House",
-    "Price": 120000
+    "Price": 120000,
+    "Status": "Pending"
   }
 
 }
