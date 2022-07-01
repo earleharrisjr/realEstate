@@ -1,28 +1,22 @@
+.image-wrapper{
+  overflow: hidden;
+}
 
 
-.propImg{
+
+.card:hover img {
+  transform: scale(1.2,1.2);
+  transition-duration: 500ms;
+  transition-timing-function: ease-out;
   height: 250px;
-  width: 90%;
-  align-self: center;
-}
-.row
-{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
 }
 
-
-.card{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.card img{
+  transform: scale(1,1);
+  transition-duration: 500ms;
+  transition-timing-function: ease-out;
+  height: 250px;
 }
 
-.shadow-lg{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 300px;
-}
 

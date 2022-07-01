@@ -1,26 +1,14 @@
 
-<div class="row" >
-  <div class="shadow-lg col-sm-4">
-    <div class="card" style="width: 20rem;">
-      <img class= "propImg" src="assets\Rowhouse-South-Philly.jpg" alt="Card image cap">
-      <div class="card-body p-2">
-        <h1>{{Property.Type}}</h1>
-        <h2>{{Property.Price}}</h2>
-        <h3>{{Property.Name}}</h3>
-        <h4 style="color:orange">{{Property.Status}}</h4>
-      </div>
-    </div>
-  </div>
 
-  <div class="shadow-lg col-sm-4">
-    <div class="card" style="width: 20rem;">
-      <img class= "propImg" src="assets\Rowhouse-South-Philly.jpg" alt="Card image cap">
-      <div class="card-body p-2">
-        <h1>{{Property.Type}}</h1>
-        <h2>{{Property.Price}}</h2>
-        <h3>{{Property.Name}}</h3>
-        <h4 style="color:orange">{{Property.Status}}</h4>
-      </div>
-    </div>
+<div class="card">
+  <div class="img-wrapper">
+    <img class= "card-img-top" src="assets\Rowhouse-South-Philly.jpg" >
   </div>
+      <div class="card-body p-1">
+        <h1>{{property.Name}}</h1>
+        <h2>{{property.Type}}</h2>
+        <h3>{{property.Price}}</h3>
+        <h4>{{property.Status}}</h4>
+      </div>
 </div>
+
